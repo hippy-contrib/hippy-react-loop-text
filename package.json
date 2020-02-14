@@ -1,0 +1,36 @@
+{
+  "name": "@tencent/hippy-text-loop-scroll-view",
+  "version": "6.254.2",
+  "description": "NOW直播QQ浏览器hippy结合版 循环滚动",
+  "main": "lib/index.js",
+  "keywords": [
+    "循环滚动",
+    "scroll",
+    "hippy",
+    "QQ浏览器"
+  ],
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
+    "prepare": "babel src -d lib",
+    "build": "tnpm publish",
+    "dev": "babel src -d lib"
+  },
+  "author": "haoyunlai",
+  "license": "MIT",
+  "dependencies": {
+    "@tencent/hippy-react-qb": "latest"
+  },
+  "maintainers": [
+    "ivwebteam_at_tencent <adamhe@tencent.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.code.oa.com/ivweb/now-design/tree/master/packages/now-hippy/@tencent/hippy-text-loop-scroll-view"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
