@@ -1,6 +1,8 @@
 # hippy-text-loop-scroll-view hippy文字无限滚动组件
 
 文字大于width宽度，将文字重复无限滚动展示。反之，则没有滚动
+截图：
+![示例截图](https://raw.githubusercontent.com/hippy-contrib/hippy-react-loop-text/master/image/text-loop.png)
 
 ## 安装
 ```
