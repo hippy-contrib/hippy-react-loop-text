@@ -6,19 +6,19 @@
 
 ## 安装
 ```
-tnpm install @tencent/hippy-text-loop-scroll-view
+npm i hippy-react-loop-text
 ```
 
-## 示例
-
+## 参数示例
+引入之后就能使用了
 ``` 
     <TextLoopScrollView
         frontImageUrl={ICON_MESSAGE} //滚动栏前面的icon图片
         scrollWidth={200} // 滚动栏内容宽度
         message={`滚动的文字`}
         onClickHandler={() => {
+            // 点击文案的回调函数
             console.log(`TextLoopScrollView click`)
         }}
     />
 ```
-

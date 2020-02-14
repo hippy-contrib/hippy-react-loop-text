@@ -1,36 +1,29 @@
 {
-  "name": "@tencent/hippy-text-loop-scroll-view",
-  "version": "6.254.2",
-  "description": "NOW直播QQ浏览器hippy结合版 循环滚动",
-  "main": "lib/index.js",
+  "name": "hippy-react-loop-text",
+  "version": "1.0.1",
+  "description": "长文本无限滚动展示组件",
+  "main": "index.js",
   "keywords": [
-    "循环滚动",
-    "scroll",
+    "loop",
     "hippy",
-    "QQ浏览器"
+    "loop-text",
+    "滚动",
+    "循环"
   ],
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
-    "prepare": "babel src -d lib",
-    "build": "tnpm publish",
-    "dev": "babel src -d lib"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "haoyunlai",
-  "license": "MIT",
-  "dependencies": {
-    "@tencent/hippy-react-qb": "latest"
-  },
-  "maintainers": [
-    "ivwebteam_at_tencent <adamhe@tencent.com>"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://git.code.oa.com/ivweb/now-design/tree/master/packages/now-hippy/@tencent/hippy-text-loop-scroll-view"
+    "url": "git+https://github.com/hippy-contrib/hippy-react-loop-text.git"
   },
-  "peerDependencies": {
-    "react": "^16.2.0"
+  "author": "MovBricks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hippy-contrib/hippy-react-loop-text/issues"
   },
-  "directories": {
-    "lib": "lib"
+  "homepage": "https://github.com/hippy-contrib/hippy-react-loop-text#readme",
+  "dependencies": {
+    "hippy-react": "^2.0.0"
   }
 }

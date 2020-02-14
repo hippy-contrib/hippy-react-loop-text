@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
-import { View, Image, Text, Animation } from '@tencent/hippy-react-qb';
+import { View, Image, Text, Animation } from '@hippy/react';
 
-import { StyleSheet } from '@tencent/hippy-react-qb';
+import { StyleSheet } from '@hippy/react';
 
 const styles = StyleSheet.create({
     messageBox: {
