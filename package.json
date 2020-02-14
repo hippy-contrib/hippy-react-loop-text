@@ -1,6 +1,6 @@
 {
   "name": "hippy-react-loop-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "长文本无限滚动展示组件",
   "main": "index.js",
   "keywords": [

@@ -9,7 +9,7 @@
 npm i hippy-react-loop-text
 ```
 
-## 参数示例
+## 示例
 引入之后就能使用了
 ``` 
     <TextLoopScrollView
@@ -22,3 +22,12 @@ npm i hippy-react-loop-text
         }}
     />
 ```
+
+## 参数
+
+| Parameter  |  Description | Types  | Defaults  |
+| ------------ | ------------ | ------------ | ------------ |
+| `frontImageUrl`  | 滚动栏前面的icon图片地址 | string  |  默认图片 |
+| `scrollWidth`  | 滚动栏内容的宽度，如果为空则不展示  | number  |   |
+| `message`  | 内容文本，如果为空则不展示  | string  |   |
+| `onClickHandler`  | 内容文本点击回调函数 | function  |   |
